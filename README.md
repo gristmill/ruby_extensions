@@ -6,7 +6,7 @@ Place in your Gemfile and run bundle
 
 ``` ruby
 
-gem "ruby_extensions", git: "git@github.com:gristmill/ruby_extensions.git"
+gem "ruby_extensions", git: "git@github.com:gristmill/ruby_extensions.git" # , tag: 'v0.3.0'
 
 ```
 
