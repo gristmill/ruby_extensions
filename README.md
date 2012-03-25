@@ -6,7 +6,7 @@ Place in your Gemfile and run bundle
 
 ``` ruby
 
-gem "rails_extensions", git: "git@github.com:AgilionApps/rails_extensions.git"
+gem "rails_extensions", git: "git@github.com:gristmill/ruby_extensions.git"
 
 ```
 
