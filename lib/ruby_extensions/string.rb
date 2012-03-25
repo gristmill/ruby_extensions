@@ -1,4 +1,4 @@
-module rubyExtensions
+module RubyExtensions
   module String
     def to_sha1
       Digest::SHA1.hexdigest(self)
