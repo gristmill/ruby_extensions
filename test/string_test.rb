@@ -19,7 +19,7 @@ class StringTest < Test::Unit::TestCase
 
   def test_to_email
     assert "hello bseanvt@gmail.com how are you?".to_email.include?("bseanvt@gmail.com")
-    assert "sean@agilionapps.com and adam@agilionapps.com are both email addresses".to_email.include?("adam@agilionapps.com")
+    assert "sean@gristmill.in and tristan@gristmill.in are both email addresses".to_email.include?("tristan@gristmill.in")
   end
 
   def test_mentions
@@ -29,7 +29,7 @@ class StringTest < Test::Unit::TestCase
 
   def test_hash_tags
     assert_equal [], "hellow world".hash_tags
-    assert_equal %W(#rails #ruby), "#rails is a framwork written in #ruby".hash_tags
+    assert_equal %W(#ruby #ruby), "#ruby is a framwork written in #ruby".hash_tags
   end
 
   def test_escape_acronyms

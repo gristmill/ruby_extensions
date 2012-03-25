@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.name        = "ruby_extensions"
   s.version     = RubyExtensions::VERSION
   s.authors     = ["Sean Behan"]
-  s.email       = ["bseanvt@gmail.com"]
-  s.homepage    = "http://github.com/agilionapps.com/ruby_extensions"
+  s.email       = ["inbox@seanbehan.com"]
+  s.homepage    = "http://github.com/gristmill/ruby_extensions"
   s.summary     = %q{Provides some useful methods.}
   s.description = %q{Project will extend various classes found in Ruby on ruby framework.}
 
