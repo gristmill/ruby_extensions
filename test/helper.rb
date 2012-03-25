@@ -1,4 +1,4 @@
 $:.unshift(File.dirname(__FILE__) + '/../lib/')
 
 require 'test/unit'
-require 'rails_extensions'
+require 'ruby_extensions'

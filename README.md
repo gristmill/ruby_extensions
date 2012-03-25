@@ -1,4 +1,4 @@
-# Rails Extensions
+# Ruby Extensions
 
 ## Installation
 
