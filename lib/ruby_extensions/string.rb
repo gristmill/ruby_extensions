@@ -5,7 +5,7 @@ module RubyExtensions
     end
 
     def to_slug(delimiter="-")
-      self.gsub(/[^a-z0-9-_\.]/i, " ").strip.gsub(/\s/, delimiter).gsub(/#{delimiter}{2}/, delimiter).downcase
+      self.gsub(/[^a-z0-9\-_\.]/i, " ").strip.gsub(/\s/, delimiter).gsub(/#{delimiter}{2}/, delimiter).downcase
     end
 
     def to_alpha_numeric
