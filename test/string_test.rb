@@ -10,7 +10,7 @@ class StringTest < Test::Unit::TestCase
     assert_equal "hello-world", "Hello World".to_slug
     assert_equal "hello-world-how-are-you", "Hello World, How are You?".to_slug
     assert_equal "hello_world_how_are_you", "Hello World, How are You?".to_slug("_")
-    assert_equal "hello-world-this-is-a_filename.jpg", "hello-world-this-is-a_filename.jpg".to_slug
+    assert_equal "hello-world-this-is-a_filename.jpg", "hello world this is a_filename.jpg".to_slug
   end
 
   def test_to_alpha_numeric
